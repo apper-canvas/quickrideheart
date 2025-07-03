@@ -1,0 +1,102 @@
+[
+  {
+    "Id": 1,
+    "pickupLocation": {
+      "address": "Times Square, New York, NY 10036",
+      "lat": 40.7580,
+      "lng": -73.9855,
+      "name": "Times Square"
+    },
+    "destination": {
+      "address": "Central Park, New York, NY",
+      "lat": 40.7831,
+      "lng": -73.9712,
+      "name": "Central Park"
+    },
+    "vehicleType": "comfort",
+    "fare": 12.50,
+    "status": "completed",
+    "driverId": "driver_1",
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "pickupLocation": {
+      "address": "Empire State Building, 350 5th Ave, New York, NY 10118",
+      "lat": 40.7484,
+      "lng": -73.9857,
+      "name": "Empire State Building"
+    },
+    "destination": {
+      "address": "Brooklyn Bridge, New York, NY",
+      "lat": 40.7061,
+      "lng": -73.9969,
+      "name": "Brooklyn Bridge"
+    },
+    "vehicleType": "economy",
+    "fare": 8.75,
+    "status": "completed",
+    "driverId": "driver_2",
+    "createdAt": "2024-01-14T14:45:00Z"
+  },
+  {
+    "Id": 3,
+    "pickupLocation": {
+      "address": "Grand Central Terminal, 89 E 42nd St, New York, NY 10017",
+      "lat": 40.7527,
+      "lng": -73.9772,
+      "name": "Grand Central Terminal"
+    },
+    "destination": {
+      "address": "JFK Airport, Queens, NY 11430",
+      "lat": 40.6413,
+      "lng": -73.7781,
+      "name": "JFK Airport"
+    },
+    "vehicleType": "premium",
+    "fare": 45.00,
+    "status": "cancelled",
+    "driverId": "driver_3",
+    "createdAt": "2024-01-13T08:20:00Z"
+  },
+  {
+    "Id": 4,
+    "pickupLocation": {
+      "address": "Wall Street, New York, NY 10005",
+      "lat": 40.7074,
+      "lng": -74.0113,
+      "name": "Wall Street"
+    },
+    "destination": {
+      "address": "High Line, New York, NY 10014",
+      "lat": 40.7480,
+      "lng": -74.0048,
+      "name": "High Line"
+    },
+    "vehicleType": "comfort",
+    "fare": 15.25,
+    "status": "completed",
+    "driverId": "driver_4",
+    "createdAt": "2024-01-12T16:30:00Z"
+  },
+  {
+    "Id": 5,
+    "pickupLocation": {
+      "address": "Madison Square Garden, 4 Pennsylvania Plaza, New York, NY 10001",
+      "lat": 40.7505,
+      "lng": -73.9934,
+      "name": "Madison Square Garden"
+    },
+    "destination": {
+      "address": "Statue of Liberty, New York, NY 10004",
+      "lat": 40.6892,
+      "lng": -74.0445,
+      "name": "Statue of Liberty"
+    },
+    "vehicleType": "suv",
+    "fare": 22.50,
+    "status": "completed",
+    "driverId": "driver_5",
+    "createdAt": "2024-01-11T11:15:00Z"
+  }
+]

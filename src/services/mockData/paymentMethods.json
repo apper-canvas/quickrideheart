@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "type": "Visa",
+    "lastFour": "1234",
+    "expiryMonth": "12",
+    "expiryYear": "2025",
+    "isDefault": true
+  },
+  {
+    "Id": 2,
+    "type": "Mastercard",
+    "lastFour": "5678",
+    "expiryMonth": "08",
+    "expiryYear": "2026",
+    "isDefault": false
+  },
+  {
+    "Id": 3,
+    "type": "Amex",
+    "lastFour": "9012",
+    "expiryMonth": "03",
+    "expiryYear": "2027",
+    "isDefault": false
+  }
+]

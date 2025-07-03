@@ -1,0 +1,50 @@
+[
+  {
+    "Id": 1,
+    "description": "Ride to Central Park",
+    "amount": -12.50,
+    "date": "2024-01-15T10:30:00Z",
+    "status": "completed",
+    "type": "ride"
+  },
+  {
+    "Id": 2,
+    "description": "Ride to Brooklyn Bridge",
+    "amount": -8.75,
+    "date": "2024-01-14T14:45:00Z",
+    "status": "completed",
+    "type": "ride"
+  },
+  {
+    "Id": 3,
+    "description": "Cancelled ride refund",
+    "amount": 45.00,
+    "date": "2024-01-13T08:25:00Z",
+    "status": "completed",
+    "type": "refund"
+  },
+  {
+    "Id": 4,
+    "description": "Ride to High Line",
+    "amount": -15.25,
+    "date": "2024-01-12T16:30:00Z",
+    "status": "completed",
+    "type": "ride"
+  },
+  {
+    "Id": 5,
+    "description": "Driver tip",
+    "amount": -3.00,
+    "date": "2024-01-12T16:35:00Z",
+    "status": "completed",
+    "type": "tip"
+  },
+  {
+    "Id": 6,
+    "description": "Ride to Statue of Liberty",
+    "amount": -22.50,
+    "date": "2024-01-11T11:15:00Z",
+    "status": "completed",
+    "type": "ride"
+  }
+]
