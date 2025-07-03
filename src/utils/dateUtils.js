@@ -23,3 +23,17 @@ export const formatTime = (date) => {
   const parsedDate = typeof date === 'string' ? parseISO(date) : date
   return format(parsedDate, 'h:mm a')
 }
+
+export const formatDateInput = (date) => {
+  const parsedDate = typeof date === 'string' ? parseISO(date) : date
+  return format(parsedDate, 'yyyy-MM-dd')
+}
+
+export const isValidDate = (dateString) => {
+  try {
+    const date = parseISO(dateString)
+    return !isNaN(date.getTime()) && date >= new Date()
+  } catch {
+    return false
+  }
+}

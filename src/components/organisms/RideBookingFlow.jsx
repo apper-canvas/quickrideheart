@@ -1,11 +1,11 @@
-import { useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
-import { toast } from 'react-toastify'
-import LocationSearch from '@/components/molecules/LocationSearch'
-import VehicleCard from '@/components/molecules/VehicleCard'
-import BottomSheet from '@/components/molecules/BottomSheet'
-import Button from '@/components/atoms/Button'
-import ApperIcon from '@/components/ApperIcon'
+import React, { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
+import { toast } from "react-toastify";
+import ApperIcon from "@/components/ApperIcon";
+import Button from "@/components/atoms/Button";
+import BottomSheet from "@/components/molecules/BottomSheet";
+import LocationSearch from "@/components/molecules/LocationSearch";
+import VehicleCard from "@/components/molecules/VehicleCard";
 
 const RideBookingFlow = ({ 
   onBookingComplete,
@@ -114,12 +114,12 @@ const RideBookingFlow = ({
             exit={{ opacity: 0, height: 0 }}
             className="space-y-3"
           >
-            <div className="flex items-center justify-between">
+<div className="flex items-center justify-between">
               <h3 className="text-lg font-semibold text-text-primary">
                 Choose your ride
               </h3>
               <div className="text-sm text-text-secondary">
-                {vehicles.length} options
+                {vehicles.length} option{vehicles.length !== 1 ? 's' : ''}
               </div>
             </div>
             

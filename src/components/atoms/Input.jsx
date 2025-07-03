@@ -21,15 +21,24 @@ const Input = forwardRef(({
           <div className="absolute left-3 top-1/2 transform -translate-y-1/2">
             <ApperIcon name={icon} className="w-5 h-5 text-text-muted" />
           </div>
-        )}
+)}
         
-        <input
-          ref={ref}
-          className={`input-field w-full ${icon ? 'pl-12' : ''} ${error ? 'border-error' : ''} ${className}`}
-          {...props}
-        />
+        {props.type === 'select' ? (
+          <select
+            ref={ref}
+            className={`input-field w-full ${icon ? 'pl-12' : ''} ${error ? 'border-error' : ''} ${className}`}
+            {...props}
+          >
+            {props.children}
+          </select>
+        ) : (
+          <input
+            ref={ref}
+            className={`input-field w-full ${icon ? 'pl-12' : ''} ${error ? 'border-error' : ''} ${className}`}
+            {...props}
+          />
+        )}
       </div>
-      
       {error && (
         <p className="text-sm text-error">
           {error}
